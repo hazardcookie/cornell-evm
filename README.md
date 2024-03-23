@@ -4,7 +4,7 @@
 |Slides|Link|
 |---|---|
 |Intro|[Cornell Hackathon Intro](slides/Cornell_Intro.pdf)|
-|EVM Workshop|[XRPL EVM Sidechain](slides/Cornell_EVM.pdf)|
+|EVM Workshop|[Cornell Hackathon EVM Workshop](slides/Cornell_EVM.pdf)|
 
 |EVM Dev|Resource|
 |---|---|
