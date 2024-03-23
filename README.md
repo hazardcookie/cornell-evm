@@ -54,14 +54,11 @@ Note: the constructor args is the address of the oracle contract on the devnet, 
 2. Change the file path to the location of the contract on your local machine. Also change the contract name to the name of the contract you are deploying. e.g. `FetchPrice.sol:FetchPrice`. Do this for **both** the **forge create** and **forge verify-contract commands**.
 
 
-
-
-
 ```
 forge create --rpc-url https://rpc-evm-sidechain.xrpl.org \
     --constructor-args 0xdE2022A8aB68AE86B0CD3Ba5EFa10AaB859d0293 \
     --private-key <private-key> \
-    src/fetchPrice.sol:FetchPrice
+    src/FetchPrice.sol:FetchPrice
 ```
 
 ### Verifying the contract
@@ -70,5 +67,6 @@ forge create --rpc-url https://rpc-evm-sidechain.xrpl.org \
 
 ```
 forge verify-contract  --chain-id 1440002 --verifier=blockscout \
---verifier-url=https://evm-sidechain.peersyst.tech/api   <contract-address>  src/fetchPrice.sol:FetchPrice
+--verifier-url=https://evm-sidechain.xrpl.org/api \
+<contract-address>  src/FetchPrice.sol:FetchPrice
 ```
