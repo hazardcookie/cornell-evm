@@ -10,7 +10,11 @@ contract FetchPrice {
         ref = _ref;
     }
 
-    function getPrice(string memory _symbol, string memory _base) external view returns (IStdReference.ReferenceData memory) {
+    function getPrice(string memory _symbol, string memory _base)
+        external
+        view
+        returns (IStdReference.ReferenceData memory)
+    {
         return ref.getReferenceData(_symbol, _base);
     }
 }
