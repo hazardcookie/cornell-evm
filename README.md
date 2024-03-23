@@ -1,6 +1,11 @@
 # Cornell 2024: XRPL EVM Sidechain Demo
 
 ### Connecting to the XRPL EVM Sidechain
+|Slides|Link|
+|---|---|
+|Intro|[Cornell Hackathon Intro](slides/Cornell_Intro.pdf)|
+|EVM Workshop|[XRPL EVM Sidechain](slides/Cornell_EVM.pdf)|
+
 |EVM Dev|Resource|
 |---|---|
 |Faucet & Bridge|https://bridge.devnet.xrpl.org/|
